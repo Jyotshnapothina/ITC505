@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #82e4e5, #d64949); 
+    color: white;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+    border-bottom: 2px dotted #333;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+p, a {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+section {
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #82e4e5, #d64949); 
+    color: #fff;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+article {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+article p {
+    margin-bottom: 10px;
+}
+
+article ul {
+    list-style: none;
+    padding: 0;
+}
+
+article li {
+    margin-bottom: 5px;
+}
+
+/* Consolidated border style for the whole body */
+body {
+    border: 3px solid;
+    border-image: linear-gradient(45deg, #82e4e5, #d64949); 
+    border-image-slice: 1;
+}
