@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lab 6 - HTML,CSS,JS</title>
+
+  <link rel="stylesheet" type="text/css" href="styles.css"> 
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="https://preview.redd.it/give-me-a-series-that-you-know-pretty-well-and-ill-give-you-v0-pc9l72btn6ab1.jpg?auto=webp&s=a9f60beb82857f13e14c9f5c91f535c12af97826" alt="Logo">
+  </div>
+  <h2>Check your knowledge ^_^</h2> 
+</header>
+
+<div class="container">
+  <aside>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </nav>
+</aside>
+<main>
+  <section id="game">
+    <h2>Guess prime or not</h2>
+    <div id="output"></div>
+    <button id="generateBtn">Generate Number</button>
+    <button id="primeBtn">Prime</button>
+    <button id="notPrimeBtn">Not Prime</button>
+    <p>Score: <span id="score">0</span></p>
+  </section>
+</main>
+<div class="advertisement">
+  <marquee behavior="3" direction="right"><h2>Sale is live. Hurry up.....!</h2></marquee>
+
+        
+        <a href="https://www.amazon.com/Ashley-Furniture-Signature-Design-Innerspring/dp/B07BNS7T6V?ref_=Oct_DLandingS_D_cdb456f2_0" target="_blank"><img src="https://m.media-amazon.com/images/I/71Y4zRb4upL._AC_SX679_.jpg" alt="Advertisement2"></a>
+        <a href="https://www.amazon.com" target="_blank"><img src="https://m.media-amazon.com/images/I/81dAr4U-6WL.__AC_SX300_SY300_QL70_FMwebp_.jpg" alt="Advertisement3"></a>
+      
+    </div>
+  </div>
+  <footer>
+       
+    <p>Addendum:</p>
+   <p>The JavaScript code implemented on this page addresses the functionality of generating random numbers to check the knowledge of users on prime numbers. It includes a function called `checkPrime(num)` that accepts a random number as input when clicked on 'Generate Number' button. If user guesses it right by clicking corresponding Prime or Not Prime button, for every accurate result it displays as correct answer and score gets incremented. If not game ends, and displays the final score and try again message . It employs an optimized algorithm to efficiently determine the primality of the given number. Additionally, it provides user interaction with buttons to generate random numbers and determine if they are prime or not. The main challenge I encountered was ensuring the correctness of the prime number checking algorithm and integrating it seamlessly with the user interface for a smooth user experience.</p>
+    <p>Last updated: 
+        <span id="lastModified"></span>
+    </p>
+</footer>
+</footer>
+<script src="script1.js"></script>
+<script type="text/javascript">
+     var x = document.lastModified;
+     document.getElementById('lastModified').textContent = x;
+</script>
+</body>
+</html>
